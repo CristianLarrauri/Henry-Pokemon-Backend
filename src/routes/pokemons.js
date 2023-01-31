@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const { createPokemon, getDbInfo } = require("../Utils/utils");
+const { createPokemon, getDbInfo } = require("../utils/utils");
 const { Pokemon, Type } = require("../db");
 
 const router = Router();
